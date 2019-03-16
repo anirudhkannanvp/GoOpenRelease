@@ -9,25 +9,25 @@ STEPS TO SET UP DEVELOPMENT ENVIRONMENT:-
 
 1) UPGRADE THE TOOLS
 
-sudo apt-get update
-sudo apt-get -y upgrade
+- sudo apt-get update
+- sudo apt-get -y upgrade
 
 2) DOWNLOAD THE FILE IN /tmp 
 
-cd /tmp
-wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
+- cd /tmp
+- wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
 
 3) UNZIP AND MOVE THE FILE TO usr/local
 
-sudo tar -xvf go1.11.linux-amd64.tar.gz
-sudo mv go /usr/local
+- sudo tar -xvf go1.11.linux-amd64.tar.gz
+- sudo mv go /usr/local
 
 4) SET THE GOROOT, GOPATH AND PATH
 
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+- export GOROOT=/usr/local/go
+- export GOPATH=$HOME/go
+- export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 5) UPDATE THE SESSION USING THE COMMAND GIVEN BELOW OR OPEN A NEW SESSION IN TERMINAL
 
-source ~/.profile
+- source ~/.profile
