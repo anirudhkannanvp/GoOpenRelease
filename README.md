@@ -31,3 +31,8 @@ STEPS TO SET UP DEVELOPMENT ENVIRONMENT:-
 5) UPDATE THE SESSION USING THE COMMAND GIVEN BELOW OR OPEN A NEW SESSION IN TERMINAL
 
 - source ~/.profile
+
+
+COMMENTS/ IMPROVEMENTS OF THE APP:-
+1) This is my first Application in Go apart from a few other problems submitted in Competitive Coding before.
+2) If you find any ERRORS, BETTER WAYS, etc , Please send me a Pull Request and I'll be Happy to accept it
