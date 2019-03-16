@@ -5,6 +5,18 @@ Setting up the development environment:-
 
 The tool was tested using UBUNTU 16.04 and go version :- go1.11 linux/amd64
 
+# Motive
+We use a lot of OpenSource Frameworks and We want to be able to track when new versions of all of these applications are released. The open source community has mostly settled on using Github and its releases feature to publish releases and are also mostly using Semantic Versioning as their versioning structure. So we are using Semver.
+
+
+# RUNNING THE PROGRAM
+
+1) CLONE THE REPOSITORY, UNZIP IT AND GO TO THE REPOSITORY
+2) SET UP THE DEVELOPMENT ENVIRONMENT
+3) RUN USING:-  go run main.go
+4) TEST USING:- go test
+
+
 STEPS TO SET UP DEVELOPMENT ENVIRONMENT:-
 
 1) UPGRADE THE TOOLS
